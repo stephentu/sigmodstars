@@ -1,0 +1,22 @@
+\documentclass{article}
+%\usepackage{times}
+%\usepackage{helvet}
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\usepackage{fullpage}
+\usepackage{rotating}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2cm,left=0.3cm,landscape]{geometry}
+\usepackage{caption}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{table}
+  \centering
+  \footnotesize
+  \caption*{\textbf{SIGMOD Top 50}}
+  \input{data}
+\end{table}
+
+\end{document}
